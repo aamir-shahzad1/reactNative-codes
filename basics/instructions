@@ -1,0 +1,27 @@
+https://facebook.github.io/react-native/docs/getting-started.html
+https://github.com/nodejs/node-gyp/issues/1045
+1.	Install JDK 
+2.	Install python 2.7
+3.	Install android studio
+4.	Install nodejs
+5.	Install react-native-cli globally
+ 
+6.	Creat app
+ 
+7.	Open app folder with android studio and install missing platform 
+8.	Add environment variable & edit path variable
+ 
+ 
+9.	List and run emulator from cmd
+ 
+cd /d  %ANDROID_HOME%/tools
+C:\Users\AamirShahzad\AppData\Local\Android\Sdk\tools>emulator -avd Nexus_5X_API_26
+10.	Open run and run  command
+react-native start --reset-cache
+or 
+react-native start
+
+11.	Run app
+             react-native run-android
+ 
+12.	To run on device run > open android folder in android studio > run app in device > repeat previous steps
