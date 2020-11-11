@@ -1,0 +1,9 @@
+
+sudo xcode-select --reset
+
+
+cd myproject/iso
+
+pod install
+
+react-native run-ios
